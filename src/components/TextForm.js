@@ -27,10 +27,11 @@ export default function TextForm(prop){
         <div className='container'>
         <h1>{prop.heading}</h1>
         <div className="mb-3">
-                <textarea className="form-control" value={text} id="myBox" onChange={handleOnChange} onClick={clearText} rows="8"></textarea>
+                <textarea className="form-control" value={text} id="myBox" onChange={handleOnChange} rows="8"></textarea>
         </div>
         <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
         <button className="btn btn-primary mx-2" onClick={handleDownClick}>Convert to Lowwecase</button>
+        <button className="btn btn-primary mx-2" onClick={clearText}>Clear Text</button>
         </div>
         <div className='container my-2'>
             <h2>Your text Summary</h2>
