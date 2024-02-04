@@ -1,0 +1,27 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .filter {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  
+  button {
+    background-color: black;
+    color: azure;
+  }
+  
+  .popUP {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background-color: yellow;
+    color: black;
+    top: 100px;
+    left: 250px;
+    border: 2px solid black;
+    border-radius: 5%;
+  }
+  
