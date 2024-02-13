@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar.js';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
+import PropDrilling from './components/PropDrilling';
  //import About from './components/About';
 //impogit Filter from './components/filter'
 
@@ -43,6 +44,7 @@ function App() {
       {/* <About/> */}
         <TextForm/>
       {/* <Filter/> */}
+      <PropDrilling/>
     </div>
    </>
   );
